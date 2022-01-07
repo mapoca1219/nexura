@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Modelo productos
+ * Modelo Empleado
  */
 class Empleado
 {

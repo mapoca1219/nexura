@@ -26,10 +26,8 @@
 							<td><?php echo $empleado->area_id?></td>
 							<td><?php echo $empleado->boletin?></td>
 							<td><?php echo $empleado->descripcion?></td>
-							<td>
-								<a href="?controller=employe&method=edit&id=<?php echo $empleado->id  ?>" class="btn btn-warning">Editar</a>
-								<a href="?controller=employe&method=delete&id=<?php echo $empleado->id  ?>" class="btn btn-danger">Eliminar</a>
-							</td>
+							<td><a href="?controller=employe&method=edit&id=<?php echo $empleado->id  ?>" class="btn btn-warning">Editar</a></td>
+							<td><a href="?controller=employe&method=delete&id=<?php echo $empleado->id  ?>" class="btn btn-danger">Eliminar</a></td>
 						</tr>
 					<?php endforeach ?>
 				</tbody>

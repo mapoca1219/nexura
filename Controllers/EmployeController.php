@@ -83,6 +83,6 @@ class EmployeController
 	public function delete()
 	{
      	$this->model->deleteEmploye($_REQUEST);
-		header('Location: ?controller=product');
+		header('Location: ?controller=employe');
 	}
 }

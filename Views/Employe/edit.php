@@ -1,3 +1,4 @@
+<html>
 <body>
 	<section class="container">
 		<form action="?controller=employe&method=new" method="post">
