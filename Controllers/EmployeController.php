@@ -3,7 +3,7 @@
 require 'models/Empleado.php';
 
 /**
- * controlador de productos
+ * controlador de Empleados
  */
 class EmployeController
 {

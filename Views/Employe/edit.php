@@ -42,11 +42,11 @@
 						<option value="1">Administrativa y Financiera</option>
 						<option value="2">Ingeniería</option>
 						<option value="3">Ventas</option>
-						<option value="3">Compras</option>
-						<option value="3">Desarrollo de Negocio</option>
-						<option value="3">Proyectos</option>
-						<option value="3">Servicios</option>
-						<option value="3">Calidad</option>
+						<option value="4">Compras</option>
+						<option value="5">Desarrollo de Negocio</option>
+						<option value="6">Proyectos</option>
+						<option value="7">Servicios</option>
+						<option value="8">Calidad</option>
 					</select>
 				</div>
 			</div>
