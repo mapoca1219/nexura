@@ -26,6 +26,16 @@ class Empleado
 			die($e->getMessage());
 		}
 	}
+	public function getAllArea()
+	{
+		try {
+			$strSql = "SELECT * FROM areas";
+			$query = $this->pdo->select($strSql);
+			return $query;
+		} catch (PDOException $e) {
+			die($e->getMessage());
+		}
+	}
 
 	public function newEmploye($data)
 	{

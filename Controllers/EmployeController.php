@@ -67,6 +67,7 @@ class EmployeController
 			// var_dump($data);
 			// exit;
 			//require 'Views/Layout.php';
+			$dataAreas =$this->model->getAllArea();
 			require 'Views/Employe/edit.php';
 			require 'views/Scripts.php';
 		// }
