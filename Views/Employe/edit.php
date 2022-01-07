@@ -105,7 +105,7 @@
 			</div>
 			
 			<div class="container">
-				<button class="btn btn-success float-right" type="submit">Guardar</button>
+				<button class="btn btn-success float-right" type="submit">Actualizar</button>
 			</div>
 		</form>
 	</section>
