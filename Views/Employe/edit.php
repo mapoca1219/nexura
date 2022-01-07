@@ -1,7 +1,8 @@
 <html>
 <body>
 	<section class="container">
-		<form action="?controller=employe&method=new" method="post">
+		<form action="?controller=employe&method=update" method="POST">
+		<input type="hidden" name="id" value="<?php echo $data[0]->id?>">
 			<div class="mb-3 row">
 				<label for="nombre" class="col-sm-2 col-form-label">Nombre completo</label>
 				<div class="col-sm-10">

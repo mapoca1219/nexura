@@ -75,10 +75,10 @@ class EmployeController
 
 	public function update()
 	{
-		// if ($_POST) {
+		if ($_POST) {
 			$this->model->updateEmploye($_POST);
 			header('Location: ?controller=employe');
-		// }
+		}
 	}
 
 	public function delete()
